@@ -1,7 +1,7 @@
 ---
-title: Flutter Documentation
-short-title: Docs
-description: The landing page for Flutter documentation.
+title: Diseño y Documentación
+short-title: DisenoyDocs
+description: The landing page for design and documentation.
 ---
 
 {% for card in site.data.docs_cards -%}
@@ -58,69 +58,16 @@ Coming from another platform? Check out:
 [FAQ][]
 : Get the answers to frequently asked questions.
 
-### Videos
-
-We also have some helpful videos on our
-[Flutter Youtube channel][]! In particular, check
-out the Flutter in Focus series,
-and learn about other series on our [videos][] page.
-
-First up, why use Flutter? What makes it different than other
-app frameworks?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l-YO9CmaSUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-How is Flutter different for app development?
-
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/wgTBLj7rMPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Flutter in Focus: Learn Flutter features in 10 minutes or less.<br>
-[Flutter in Focus playlist][]
-
-In Flutter, "everything is a widget"! If you want to better
-understand the two kinds of widgets, Stateless and Stateful,
-see the following videos,
-part of the [Flutter in Focus][] series.
-
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/wE7khGHVkYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="560" height="315" src="https://www.youtube.com/embed/AqCMFXEmf3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Want to skill up?
-
-If you learn best by watching engineers write code,
-make mistakes, and fix them,
-check out the [Boring Flutter Show][] video series:
-
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/vqPG1tU6-c0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[Boring Flutter Show playlist][]
-
-You might also find these docs useful:
-
-* [Using packages][]
-* [Adding assets and images][]
-* [Navigation and routing][]
-* [State management][]
-* [Animations][]
-
-
 [A tour of the Flutter widget framework]: /docs/development/ui/widgets-intro
-[Adding assets and images]: /docs/development/ui/assets-and-images
 [Adding interactivity to your Flutter app]: /docs/development/ui/interactive
 [Android]: /docs/get-started/flutter-for/android-devs
-[Animations]: /docs/development/ui/animations
-[Boring Flutter Show]: https://www.youtube.com/watch?v=vqPG1tU6-c0&list=PLjxrf2q8roU28W3pXbISJbVA5REsA41Sx&index=3&t=9s
-[Boring Flutter Show playlist]: https://www.youtube.com/watch?v=vqPG1tU6-c0&list=PLjxrf2q8roU28W3pXbISJbVA5REsA41Sx&index=3&t=9s
 [Building layouts]: /docs/development/ui/layout
 [FAQ]: /docs/resources/faq
 [flutter-announce]: https://groups.google.com/forum/#!forum/flutter-announce
-[Flutter in Focus]: https://www.youtube.com/playlist?list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2
-[Flutter in Focus playlist]: https://www.youtube.com/playlist?list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2
-[Flutter Youtube channel]: {{site.social.youtube}}
 [Get started]: /docs/get-started/install
 [iOS]: /docs/get-started/flutter-for/ios-devs
-[Navigation and routing]: /docs/development/ui/navigation
 [React Native]: /docs/get-started/flutter-for/react-native-devs
-[State management]: /docs/development/data-and-backend/state-mgmt/intro
 [Understanding constraints]: /docs/development/ui/layout/constraints
-[Using packages]: /docs/development/packages-and-plugins/using-packages
-[videos]: /docs/resources/videos
 [Web]: /docs/get-started/flutter-for/web-devs
 [What's new archive]: /docs/whats-new-archive
 [Write your first Flutter app]: /docs/get-started/codelab

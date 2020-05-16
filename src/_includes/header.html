@@ -7,7 +7,7 @@
     </button>
 
     <a class="navbar-brand" href="/">
-      {% asset 'flutter-lockup.png' alt='Flutter logo' height="37" width="129" class="align-middle" %}
+      {% asset 'todoopen.svg' alt='TodoOpen logo' height="37" width="129" class="align-middle" %}
     </a>
 
     <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
@@ -17,7 +17,8 @@
 
           <li class="nav-item">
             <a class="nav-link
-                {%- if page_url_path == '/docs' or page_url_path contains '/docs/' %} active {%- endif -%}" href="/docs">Docs</a>
+                {%- if page_url_path == '/docs' or page_url_path contains '/docs/' %} active {%- endif -%}"
+               href="/docs">Dise&ntilde;o</a>
           </li>
           <div class="site-sidebar site-sidebar--header d-md-none">
             {% include shared/sidenav-level-1.html nav=site.data.sidenav %}
@@ -25,11 +26,11 @@
 
           <li class="nav-item">
             <a class="nav-link
-                {%- if page_url_path == '/showcase' %} active {%- endif -%}" href="/showcase">Showcase</a>
+                {%- if page_url_path == '/docsinternos' %} active {%- endif -%}" href="/docsinternos">Docs Internos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link
-                {%- if page_url_path == '/community' %} active {%- endif -%}" href="/community">Community</a>
+                {%- if page_url_path == '/docsexternos' %} active {%- endif -%}" href="/docsexternos">Docs Externos</a>
           </li>
         </ul>
         <form action="/search/" class="site-header__search form-inline">
