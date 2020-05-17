@@ -1,27 +1,8 @@
 ---
-title: Diseño y Documentación
-short-title: DisenoyDocs
-description: The landing page for design and documentation.
+title: Diseño y Documentación 
+short-title: Docs
+description: The landing page for internal documentation.
 ---
-
-{% for card in site.data.docs_cards -%}
-  {% capture index0Modulo3 %}{{ forloop.index0 | modulo:3 }}{% endcapture %}
-  {% capture indexModulo3 %}{{ forloop.index | modulo:3 }}{% endcapture %}
-  {% if index0Modulo3 == '0' %}
-  <div class="card-deck mb-4">
-  {% endif %}
-    <a class="card" href="{{card.url}}">
-      <div class="card-body">
-        <header class="card-title">{{card.name}}</header>
-        <p class="card-text">{{card.description}}</p>
-      </div>
-    </a>
-  {% if indexModulo3 == '0' %}
-  </div>
-  {% endif %}
-{% endfor -%}
-
-<a name="latest-release"></a>
 ## What's new on this site
 
 To see changes to the site since our last release,
@@ -72,4 +53,3 @@ Coming from another platform? Check out:
 [What's new archive]: /docs/whats-new-archive
 [Write your first Flutter app]: /docs/get-started/codelab
 [Xamarin.Forms]: /docs/get-started/flutter-for/xamarin-forms-devs
-

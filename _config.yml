@@ -20,7 +20,7 @@ sdk: # Flutter SDK
   channel: stable # When changing this value also update it in src/_assets/js/archive.js
 
 social:
-  twitter: https://twitter.com/flutterdev
+  twitter: https://twitter.com/todoopen
   youtube: https://www.youtube.com/flutterdev
 
 dart-site: https://dart.dev
@@ -47,11 +47,11 @@ defaults:
     path: ''
   values:
     layout: default
-    show-nav-get-started-button: true
+    show-nav-get-started-button: false
     # To hide banners from every page, comment out the `show_banner` setting
     # below. To selectively enable a banner (say, on the homepage) add
     # `show_banner: true` to the page's frontmatter.
-    show_banner: true
+    show_banner: false
     show_footer: true
 - scope:
     path: 'docs'

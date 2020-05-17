@@ -57,6 +57,7 @@ Coming from another platform? Check out:
 
 [FAQ][]
 : Get the answers to frequently asked questions.
+
 [A tour of the Flutter widget framework]: /docs/development/ui/widgets-intro
 [Adding interactivity to your Flutter app]: /docs/development/ui/interactive
 [Android]: /docs/get-started/flutter-for/android-devs
