@@ -1,47 +1,31 @@
-- title: Alcance
+- title: Propuesta
+  expanded: true
+  permalink: /docs/propuesta
   children:
-    - title: 1. Install
-      permalink: /docs/get-started/install
-    - title: 2. Set up an editor
-      permalink: /docs/get-started/editor
-    - title: 3. Test drive
-      permalink: /docs/get-started/test-drive
-    - title: 4. Write your first app
-      permalink: /docs/get-started/codelab
-    - title: 5. Learn more
-      permalink: /docs/get-started/learn-more
-    - divider
-    - title: From another platform?
-      expanded: true
-      children:
-        - title: Flutter for Android devs
-          permalink: /docs/get-started/flutter-for/android-devs
-        - title: Flutter for iOS devs
-          permalink: /docs/get-started/flutter-for/ios-devs
-        - title: Flutter for React Native devs
-          permalink: /docs/get-started/flutter-for/react-native-devs
-        - title: Flutter for web devs
-          permalink: /docs/get-started/flutter-for/web-devs
-        - title: Flutter for Xamarin.Forms devs
-          permalink: /docs/get-started/flutter-for/xamarin-forms-devs
-        - title: Introduction to declarative UI
-          permalink: /docs/get-started/flutter-for/declarative
-    - title: "Dart language overview"
-      permalink: https://www.dart.dev/guides/language
-    - title: "Building a web app"
-      permalink: /docs/get-started/web
+    - title: Propuesta
+      permalink: /docs/propuesta/propuesta
 
-- title: Samples & tutorials
+- title: Diseño
+  expanded: true
+  permalink: /docs/diseno
   children:
-    - title: Cookbook
-      permalink: /docs/cookbook
-    - title: Codelabs
-      permalink: /docs/codelabs
-    - title: Tutorials
-      permalink: /docs/reference/tutorials
+    - title: Diseño
+      permalink: /docs/diseno/diseno
+
+- title: Antecedentes
+  permalink: /docs/antecedentes
+  children:
+    - title: Antecedentes
+      permalink: /docs/antecedentes/antecedentes
+
+- title: Alcance
+  permalink: /docs/alcance
+  children:
+    - title: Alcance
+      permalink: /docs/alcance/alcance
 
 - title: Development
-  expanded: true
+  expanded: false
   permalink: /docs/development
   children:
     - title: User interface
@@ -323,12 +307,12 @@
     - title: Design Documents
       permalink: /docs/resources/design-docs
 
-- title: Reference
+- title: Enlaces
   expanded: true
   children:
-    - title: Widget index
-      permalink: /docs/reference/widgets
-    - title: API reference
-      permalink: https://api.flutter.dev
-    - title: Package site
-      permalink: https://pub.dev/flutter
+    - title: Sintaxis Jekyll
+      permalink: https://www.markdownguide.org/tools/jekyll/
+    - title: Tables Markdown
+      permalink: https://www.tablesgenerator.com/markdown_tables#
+    - title: Webmail
+      permalink: https://todoopen.com/webmail/

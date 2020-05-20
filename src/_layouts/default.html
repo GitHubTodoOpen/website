@@ -19,7 +19,7 @@ layout: base
       {% include toc.html kind="side" class="fixed-col col-xl-2 order-3" extendToc=true -%}
     {% endif -%}
     <main class="site-content {{main-col}}" role="main">
-      <div class="container">
+      <div id="contenido-div" class="container">
         {% if page.deprecated %}
           {% include snackbar.html class="snackbar--dismissible" label="This page is deprecated and its content may be out of date." action="Dismiss" %}
         {% endif %}
